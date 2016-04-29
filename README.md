@@ -9,7 +9,7 @@ Returns 0 if no match is found.
 The only exception with regular expressions is the fact that "[a-f]" will not try to match any character between a and f,
 but 'a', '-' or 'f'.
 
-The function is case sensitive.
+The function is case sensitive and escapes with '\'.
 
 For instance: 
 if word is "\*", it will match whatever word passed in tested.
