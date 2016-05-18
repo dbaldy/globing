@@ -6,6 +6,7 @@ int     match(char *tested, char *word);
 Returns 1 if tested matches with word in terms of reg exp ('\*', '?', '[', ']').
 Returns 0 if no match is found.
 
+The functions starting with 'ft' are available in the libft repository.
 The only exception with regular expressions is the fact that "[a-f]" will not try to match any character between a and f,
 but 'a', '-' or 'f'.
 
